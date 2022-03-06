@@ -1,0 +1,17 @@
+
+3 Formar de inserir cores no CSS, em sistemas.
+
+1 - Nome das cores (Ingles);
+2 - Escala RGB
+    R - Red   0 a 255 
+    G - Green 0 a 255
+    B - Blue  0 a 255
+
+3 - Hexadecimal
+    R - 2 LETRAS POR CONJUNTO  (0-9 ou A-F)
+    G - 2 LETRAS POR CONJUNTO  (0-9 ou A-F)
+    B - 2 LETRAS POR CONJUNTO  (0-9 ou A-F)
+
+    Variação: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F = 255
+
+

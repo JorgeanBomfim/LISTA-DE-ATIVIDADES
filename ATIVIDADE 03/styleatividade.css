@@ -1,0 +1,48 @@
+
+*{
+   font-family: 'Times New Roman', Times, serif;
+   size: 7px;
+   font-weight: 300;
+}
+
+
+body{
+    background: rgb(195, 199, 221);
+    margin: auto;
+}
+
+form {
+    margin: 5px ;
+    height: 100px;
+    
+
+    
+}
+fieldset{ 
+  
+    background-color: #a7a8cad2;
+    margin: 0px;
+    border: 2px solid  #11051bd7;
+    border-radius: 35px;
+    
+ 
+}
+
+legend{
+    color: #0a0a0a;
+    border: 2px solid   #e7131eb4;
+    margin: 12px;
+    
+}
+
+label{display: inline-block;
+     width: 250px;
+    height: 15px; 
+    margin: 2px;   
+ 
+}
+
+#check{
+    width: 500px;
+
+}

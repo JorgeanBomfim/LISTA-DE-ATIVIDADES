@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 3 - Curriculo</title>
+    <link rel="stylesheet" href="styleatividade.css" />
+</head>
+<body>
+
+ <form action="inicioatividade.html" method="GET">
+        
+        <fieldset>
+            <legend> Dados Pessoais</legend>
+
+	        <label for= "nome"> Nome completo * </label>
+            <input type="text" name="nome" id="nome" maxlength="100" required=""/>
+            <br>	        
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" required=""/>
+            <br>
+	        
+            <label for="celular">Celular* (Formato:ddd-9-número)</label>
+            <input pattern="^\d{2}\d{1}\d{4}\d{4}$" type="number" name="celular" id="celular" required="" oninvalid="setCustomValidity('Verifique se preencheu o FORMATO solicitado')" oninput="setCustomValidity('')"/>
+            <br>
+
+
+
+            
+            <label for="endereco">Endereço</label>
+            <input type="text" name="endereco" id="endereco" required=""/>
+            <br>
+
+
+            <label for ="cep">Cep</label>
+            <input type="text" name="cep" id="cep" minlength="8" maxlength="8" required="" oninvalid="setCustomValidity('Atenção: O Cep deve conter 8 dígitos ')" oninput="setCustomValidity('')"/>
+            <br>            
+
+            <label for="nascimento"> Data de Nascimento</label>
+            <input type="date" name="nascimento" id="nascimento" max="2004-01-01" required=""oninvalid="setCustomValidity('Cadastro permitido apenas para maiores de 18 anos')" oninput="setCustomValidity('')"/>
+           
+        </fieldset>
+        <br>
+
+        <fieldset>
+        <legend> Dados Escolares </legend>
+
+
+            
+         <label for= "nome_curso"> Nome do Curso 1 * </label>
+            <input type="text" name="nome_curso" id="nome_curso" />
+         <br>
+         <br>	
+        
+        <label for= "time"> Horas* </label>
+        <input type="number" name="horas" id="horas" />
+        <br>
+        	
+
+        <label for="conclusao"> Mês/Ano de conclusão*</label>
+        <input type="date" name="conclusao" id="conclusao" min="2015-02-01" />
+        <br>
+        <br>
+        <br>	
+
+        <label for= "nome_curso"> Nome do Curso 2*  </label>
+        <input type="text" name="nome_curso" id="nome_curso" />
+     <br>	
+    
+        <label for= "horas"> Horas* </label>
+        <input type="number" name="horas" id="horas" />
+    <br>	
+
+    <label for="conclusao"> Mês/Ano de conclusão*</label>
+    <input type="date" name="conclusao" id="conclusao" min="2015-02-01"/>
+    <br>
+    <br>
+    <br>	
+
+    <label for= "nome_curso"> Nome do Curso 3* </label>
+    <input type="text" name="nome_curso" id="nome_curso"/>
+ <br>	
+
+    <label for= "horas"> Horas* </label>
+    <input type="number" name="horas" id="horas"/>
+<br>	
+
+<label for="conclusao"> Mês/Ano de conclusão*</label>
+<input type="date" name="conclusao" id="conclusao" min="2015-02-01"/>
+        
+
+ </fieldset>
+<br>
+
+
+    <fieldset>
+        <legend class="dados_profissionais"> Dados Profissionais</legend>
+
+        <label for= "nome_empresa"> Nome da Empresa 1 * </label>
+        <input type="" name="nome_empresa" id="nome_empresa"/>
+     <br>	
+     
+        
+        Atual?
+        <select  name="Atual">
+        <option value="Sim" >Sim </option>
+        <option value="Não">Não </option> </select>
+        <br>
+
+        <label for="tempo_trabalho">Tempo de trabalho: </label>
+        <input type="text" name="tempo_trabalho" id="tempo_trabalho">
+     <br>
+
+     <label for="cargo">Cargo: </label>
+     <input type="text" name="cargo" id="cargo">
+        <br>
+    
+
+        Descrição das atividades: 
+        <br>
+        <textarea name="descricao"></textarea>
+        <br>
+        <br>
+        <br>	
+
+        <label for= "nome_empresa"> Nome da Empresa 2 * </label>
+        <input type="" name="nome_empresa" id="nome_empresa"/>
+        <br>	
+
+        Atual?
+        <select  name="Atual">
+        <option value="Sim" >Sim </option>
+        <option value="Não">Não </option> </select>
+        <br>
+
+        <label for="tempo_trabalho">Tempo de trabalho: </label>
+        <input type="text" name="tempo_trabalho" id="tempo_trabalho">
+        <br>
+
+        <label for="cargo">Cargo: </label>
+        <input type="text" name="cargo" id="cargo">
+        <br>
+
+
+        Descrição das atividades: 
+        <br>
+        <textarea name="descricao"></textarea>
+        <br>
+        <br>
+        <br>	
+
+        <label for= "nome_empresa"> Nome da Empresa 3 * </label>
+        <input type="" name="nome_empresa" id="nome_empresa"/>
+        <br>	
+
+        Atual?
+        <select  name="Atual">
+        <option value="Sim" >Sim </option>
+        <option value="Não">Não </option> </select>
+        <br>
+
+        <label for="tempo_trabalho">Tempo de trabalho: </label>
+        <input type="text" name="tempo_trabalho" id="tempo_trabalho">
+        <br>
+
+        <label for="cargo">Cargo: </label>
+        <input type="text" name="cargo" id="cargo">
+        <br>
+
+
+        Descrição das atividades: 
+        <br>
+        <textarea name="descricao"></textarea>
+        <br>
+        <br>  
+
+        <input type="checkbox" required="" oninvalid="setCustomValidity('Para finalizar o cadastro é preciso confirmar a autorização.')" oninput="setCustomValidity('')">
+        <label for="check" id="check"  > Autorizo que  os dados coletados sejam utilizados para fins profissionais.</label>
+        <br>
+        <br>
+        
+
+
+       <button id="salvar" >Salvar</button required="">
+     
+
+    </fieldset>
+
+</form>
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

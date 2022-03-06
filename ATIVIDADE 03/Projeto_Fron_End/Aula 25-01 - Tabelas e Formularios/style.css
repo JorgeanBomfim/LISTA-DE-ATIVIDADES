@@ -1,0 +1,21 @@
+thead tr{
+    text-align: center;
+    background-color: #FF0000;
+    font-weight: bold;
+}
+thead th{
+    font-weight: normal;
+}
+tbody{
+    background-color: #ffffff;
+
+}
+
+tbody tr:hover{
+    background-color: #f30000;
+}
+
+/* tbody tr:nth-child(even){
+    background-color: rgb(175, 175, 175);
+} */
+

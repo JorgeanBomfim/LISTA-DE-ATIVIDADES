@@ -1,0 +1,51 @@
+*{ 
+    font-size: Arial;
+ 
+ 
+}
+
+
+
+
+
+p { 
+    margin: 15px;
+    
+}
+
+
+
+
+.mark_verde{ background-color: #00FF00;
+
+}
+
+.mark_vermelho{ background-color: #FF0000
+
+}
+
+.mark_azul{ background-color: #0000FF
+
+}
+
+.mark_rosa{ background-color: #ff00b3 
+
+}
+
+
+img { height: 400px;
+    background-position: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h6 {
+    font-size: 7px;
+}
+
+
+.teste{
+    text-align: center;
+}
